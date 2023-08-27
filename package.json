@@ -6,7 +6,8 @@
     "tailwindcss-debug-screens": "^2.2.1"
   },
   "scripts": {
-    "div": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "div": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "divs": "npx tailwindcss -i ./src/input.css -o ./dist/output.css "
   },
   "dependencies": {
     "flowbite": "^1.6.5"
