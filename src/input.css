@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .body {
+    background-image: url("../public/img/sm/background.png");
+    background-position: center;
+    background-size: cover;
+    height: 880px;
+  }
+  #bg2 {
+    background: url("../public/img/bg_block.png");
+    height: 1000px;
+    background-size: cover;
+  }
+  #bg-4 {
+    background-image: url("../public/img/Group\ 4.png");
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #footer {
+    background-image: url("../public/img/footer_bg_block.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
